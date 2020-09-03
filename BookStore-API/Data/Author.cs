@@ -8,7 +8,7 @@ namespace BookStore_API.Data
     {
         public int Id { get; set; }
         public string Firstname { get; set; }
-        public string LastNnme { get; set; }
+        public string LastName { get; set; }
         public string Bio { get; set; }
         public virtual IList<Book> Books { get; set; }
     }
